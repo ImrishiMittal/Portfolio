@@ -4,27 +4,55 @@ import HeroGlobe from "./HeroGlobe";
 const Hero = () => {
   return (
     <section
-  id="hero"
-  className="
-  min-h-screen
+      id="hero"
+      className="
+      relative
 
-  flex
+      min-h-screen
 
-  items-center
+      flex
 
-  justify-between
+      items-center
 
-  gap-12
+      justify-between
 
-  px-6
+      gap-12
 
-  pt-20
+      overflow-hidden
 
-  md:px-12
+      px-6
 
-  lg:px-20
-"
->
+      pt-20
+
+      md:px-12
+
+      lg:px-20
+    "
+    >
+
+      {/* Blue Glow */}
+
+      <div
+        className="
+        absolute
+
+        top-1/2
+
+        right-0
+
+        h-[400px]
+
+        w-[400px]
+
+        -translate-y-1/2
+
+        rounded-full
+
+        bg-blue-500/10
+
+        blur-[120px]
+      "
+      />
 
       <HeroContent />
 
