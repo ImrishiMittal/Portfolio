@@ -1,8 +1,9 @@
 import HeroContent from "./HeroContent";
-import HeroGlobe from "./HeroGlobe";
+import Globe3D from "./Globe3D";
 
 const Hero = () => {
   return (
+
     <section
       id="hero"
       className="
@@ -14,10 +15,6 @@ const Hero = () => {
 
       items-center
 
-      justify-between
-
-      gap-12
-
       overflow-hidden
 
       px-6
@@ -27,7 +24,7 @@ const Hero = () => {
       md:px-12
 
       lg:px-20
-    "
+      "
     >
 
       {/* Blue Glow */}
@@ -51,14 +48,27 @@ const Hero = () => {
         bg-blue-500/10
 
         blur-[120px]
-      "
+        "
       />
 
-      <HeroContent />
 
-      <HeroGlobe />
+
+      {/* Globe */}
+
+      <Globe3D />
+
+
+
+      {/* Hero Content */}
+
+      <div className="relative z-10">
+
+        <HeroContent />
+
+      </div>
 
     </section>
+
   );
 };
 
