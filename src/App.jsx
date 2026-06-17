@@ -1,7 +1,20 @@
 import Home from "./pages/Home";
+import LoadingScreen from "./components/LoadingScreen";
 
 function App() {
-  return <Home />;
+
+  return (
+
+    <>
+
+      <LoadingScreen />
+
+      <Home />
+
+    </>
+
+  );
+
 }
 
 export default App;
