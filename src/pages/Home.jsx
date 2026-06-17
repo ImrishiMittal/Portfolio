@@ -3,6 +3,7 @@ import Hero from "@/components/Hero/Hero";
 import About from "@/components/About/About";
 import Projects from "@/components/Projects/Projects";
 import Experience from "@/components/Experience/Experience";
+import Education from "@/components/Education/Education";
 import Certifications from "@/components/Certifications/Certifications";
 import Skills from "@/components/Skills/Skills";
 import BeyondCoding from "@/components/BeyondCoding/BeyondCoding";
@@ -22,6 +23,8 @@ const Home = () => {
       <Projects />
 
       <Experience />
+
+      <Education/>
 
       <Certifications />
 
