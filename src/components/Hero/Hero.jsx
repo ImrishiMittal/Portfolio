@@ -8,21 +8,15 @@ const Hero = () => {
       id="hero"
       className="
       relative
-
       min-h-screen
-
       flex
-
+      flex-col-reverse
+      md:flex-row
       items-center
-
       overflow-hidden
-
       px-6
-
       pt-20
-
       md:px-12
-
       lg:px-20
       "
     >
