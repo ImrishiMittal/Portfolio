@@ -87,7 +87,91 @@ const Globe3D = () => {
 
   }, []);
 
+  const techStack = [
 
+    {
+  
+      icon:"⚛",
+  
+      name:"React",
+  
+      angle:0
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"☁",
+  
+      name:"AWS",
+  
+      angle:50
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"🤖",
+  
+      name:"AI/ML",
+  
+      angle:100
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"☕",
+  
+      name:"Java",
+  
+      angle:160
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"🐬",
+  
+      name:"SQL",
+  
+      angle:220
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"🟢",
+  
+      name:"Node",
+  
+      angle:280
+  
+    },
+  
+  
+  
+    {
+  
+      icon:"🍃",
+  
+      name:"MongoDB",
+  
+      angle:330
+  
+    },
+  
+  ];
 
   return (
 
@@ -231,6 +315,133 @@ const Globe3D = () => {
 
       />
 
+<div
+
+className="
+
+absolute
+
+left-1/2
+
+top-1/2
+
+h-[720px]
+
+w-[720px]
+
+-translate-x-1/2
+
+-translate-y-1/2
+
+animate-[orbit_40s_linear_infinite]
+
+"
+
+>
+
+{
+
+techStack.map((tech)=>(
+
+<div
+
+key={tech.name}
+
+style={{
+
+position:"absolute",
+
+left:"50%",
+
+top:"50%",
+
+transform:`
+
+rotate(${tech.angle}deg)
+
+translateY(-340px)
+
+rotate(-${tech.angle}deg)
+
+`
+
+}}
+
+>
+
+<div
+
+className="
+
+animate-[antiOrbit_40s_linear_infinite]
+
+group
+
+flex
+
+items-center
+
+gap-2
+
+rounded-full
+
+border
+
+border-blue-500/20
+
+bg-zinc-900/70
+
+px-4
+
+py-2
+
+backdrop-blur-md
+
+transition-all
+
+duration-300
+
+hover:scale-110
+
+hover:border-blue-500/50
+
+"
+
+>
+
+<span className="text-xl">
+
+{tech.icon}
+
+</span>
+
+
+
+<span
+
+className="
+
+text-sm
+
+text-zinc-300
+
+"
+
+>
+
+{tech.name}
+
+</span>
+
+</div>
+
+</div>
+
+))
+
+}
+
+</div>
     </div>
 
   );
