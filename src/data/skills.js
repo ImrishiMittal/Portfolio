@@ -4,8 +4,6 @@ export const skills = [
   
       title: "Frontend",
   
-      icon: "🎨",
-  
       items: [
   
         "HTML",
@@ -30,13 +28,21 @@ export const skills = [
   
       title: "Backend",
   
-      icon: "⚙",
-  
       items: [
   
         "Node.js",
   
-        "Express",
+        "Express"
+  
+      ]
+  
+    },
+    {
+  
+      title: "Database",
+  
+      items: [
+        "SQL",
   
         "MongoDB"
   
@@ -50,13 +56,9 @@ export const skills = [
   
       title: "Languages",
   
-      icon: "☕",
-  
       items: [
   
         "Java",
-  
-        "SQL",
   
         "Python"
   
@@ -69,8 +71,6 @@ export const skills = [
     {
   
       title: "Tools",
-  
-      icon: "🛠",
   
       items: [
   
@@ -95,8 +95,6 @@ export const skills = [
     {
   
       title: "Currently Learning",
-  
-      icon: "🚀",
   
       items: [
   

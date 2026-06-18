@@ -1,7 +1,6 @@
 const interests = [
 
     {
-      emoji: "✈️",
   
       title: "Solo Traveller",
   
@@ -15,7 +14,6 @@ const interests = [
   
     {
   
-      emoji: "🏏",
   
       title: "Cricket Enthusiast",
   
@@ -29,7 +27,6 @@ const interests = [
   
     {
   
-      emoji: "🚀",
   
       title: "Product Builder",
   
@@ -43,7 +40,6 @@ const interests = [
   
     {
   
-      emoji: "🤖",
   
       title: "AI / ML Explorer",
   

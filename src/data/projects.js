@@ -75,7 +75,7 @@ export const completedProjects = [
   
     {
   
-      title: "VegRasoi",
+      title: "#Project 1",
   
       description:
         "Homemade pure vegetarian food platform connecting customers with fresh and healthy meals.",
@@ -88,7 +88,7 @@ export const completedProjects = [
   
     {
   
-      title: "Destimate",
+      title: "#Project 2",
   
       description:
         "Safety-first platform helping solo travellers find verified travel companions based on destination and dates.",
