@@ -116,28 +116,34 @@ const Projects = () => {
 
 
 
-                <button
+                <a
+  href="#contact"
+  className="
+  mt-8
 
-                  className="
-                  mt-8
+  inline-block
 
-                  rounded-xl
+  rounded-xl
 
-                  border
+  border
 
-                  border-zinc-700
+  border-zinc-700
 
-                  px-5
+  px-5
 
-                  py-3
+  py-3
 
-                  hover:border-blue-500/50
-                "
-                >
+  transition-all
 
-                  Interested
+  duration-300
 
-                </button>
+  hover:border-blue-500/50
+
+  hover:text-white
+"
+>
+  Interested →
+</a>
 
               </div>
 
