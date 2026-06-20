@@ -123,7 +123,7 @@ export const upcomingProjects = [
     title: "#Project 2",
 
     description:
-      "Safety-first platform helping solo travellers find verified travel companions based on destination and dates.",
+      "Building a platform focused on making travel experiences safer, smarter, and more connected for modern explorers.",
 
     status: "Idea & Research",
   },
