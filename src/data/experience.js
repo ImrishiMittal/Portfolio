@@ -1,6 +1,5 @@
 import gaoLogo from "@/assets/gao.png";
-
-import gloriaLogo from "@/assets/gloravitalogo.jpg";
+import gloriaLogo from "@/assets/gloraVitalogo.jpg";
 export const experiences = [
 
     {
