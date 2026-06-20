@@ -1,4 +1,4 @@
-import profile from "@/assets/Headshot.png";
+import profile from "@/assets/Headshot.jpeg";
 
 const PhotoReveal = () => {
   return (
@@ -7,62 +7,63 @@ const PhotoReveal = () => {
       {/* Glow */}
 
       <div
-        className="
-        absolute
+  className="
+  absolute
 
-        -inset-4
+  -inset-4
 
-        rounded-[2rem]
+  rounded-[2rem]
 
-        bg-blue-500/20
+  bg-blue-500/20
 
-        blur-3xl
+  blur-3xl
 
-        opacity-0
+  /* Mobile -> always visible */
+  opacity-100
 
-        transition-all
+  /* Desktop -> only on hover */
+  md:opacity-0
+  md:group-hover:opacity-100
 
-        duration-500
-
-        group-hover:opacity-100
-      "
-      />
+  transition-all
+  duration-500
+"
+/>
 
       {/* Image */}
 
       <img
-        src={profile}
-        alt="Rishi Mittal"
-        className="
-        relative
+  src={profile}
+  alt="Rishi Mittal"
+  className="
+  relative
 
-        h-[420px]
+  h-[420px]
+  w-[320px]
 
-        w-[320px]
+  rounded-[2rem]
 
-        rounded-[2rem]
+  object-cover
 
-        object-cover
+  border
+  border-zinc-800
 
-        border
+  shadow-2xl
 
-        border-zinc-800
+  /* MOBILE */
+  grayscale-0
 
-        shadow-2xl
+  /* DESKTOP */
+  md:grayscale
+  md:group-hover:grayscale-0
 
-        grayscale
+  transition-all
+  duration-500
 
-        transition-all
-
-        duration-500
-
-        group-hover:grayscale-0
-
-        group-hover:scale-105
-
-        group-hover:border-blue-500/40
-      "
-      />
+  md:group-hover:scale-105
+  md:group-hover:border-blue-500/40
+"
+/>
 
     </div>
   );
