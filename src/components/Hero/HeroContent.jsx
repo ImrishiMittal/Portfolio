@@ -30,7 +30,7 @@ const HeroContent = () => {
 
       <p className="mt-2 text-xl md:text-2xl text-zinc-500">
 
-        specializing in MERN
+      Building scalable full-stack applications with MERN, AI and modern web technologies.
 
       </p>
 

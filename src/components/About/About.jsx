@@ -50,11 +50,11 @@ const About = () => {
 
           <h2 className="mt-4 text-5xl font-bold">
 
-            Full Stack
+          Full Stack Developer
 
             <br />
 
-            MERN Developer
+            & Problem Solver
 
           </h2>
 
