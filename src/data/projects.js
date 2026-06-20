@@ -111,7 +111,7 @@ export const completedProjects = [
 
 export const upcomingProjects = [
   {
-    title: "#Project 1",
+    title: "Stealth Project 1",
 
     description:
       "Homemade pure vegetarian food platform connecting customers with fresh and healthy meals.",
@@ -120,7 +120,7 @@ export const upcomingProjects = [
   },
 
   {
-    title: "#Project 2",
+    title: "Stealth Project 2",
 
     description:
       "Building a platform focused on making travel experiences safer, smarter, and more connected for modern explorers.",
@@ -128,7 +128,7 @@ export const upcomingProjects = [
     status: "Idea & Research",
   },
   {
-    title: "#Project 3",
+    title: "Stealth Project 3",
 
     description:
       "An application for an aashram to track all kind of donations, all the announcements, books, bhajans will available on the site.",
