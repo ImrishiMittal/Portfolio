@@ -10,7 +10,7 @@ export const experiences = [
   
       role: "Web Development Intern",
   
-      timeline: "Jan 2025 - Mar 2025",
+      timeline: "May 2024 - September 2024",
   
       highlight: "Promoted to Assistant Squad Leader",
   
