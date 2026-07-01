@@ -46,7 +46,7 @@ const Globe3D = () => {
 
   const techStack = [
     { icon: "⚛",  name: "React",   lat: 35,   lng: 80   },
-    { icon: "☁",  name: "AWS",     lat: 50,   lng: 0    },
+    { icon: "🐍",  name: "Python",     lat: 50,   lng: 0    },
     { icon: "🤖", name: "AI/ML",   lat: -20,  lng: 140  },
     { icon: "☕", name: "Java",    lat: 40,   lng: -100  },
     { icon: "🐬", name: "SQL",     lat: -30,  lng: -60  },

@@ -5,6 +5,7 @@ import {
 } from "react-icons/fa";
 
 import { FaXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 const socials = [
 
@@ -43,6 +44,20 @@ const socials = [
       "https://x.com/ImrishiMittal",
 
     label: "X",
+
+  },
+
+
+
+  {
+
+    icon: SiLeetcode,
+
+    link:
+
+      "https://leetcode.com/u/imrishimittal/",
+
+    label: "LeetCode",
 
   },
 
@@ -166,7 +181,7 @@ const Footer = () => {
 
             >
 
-Software Engineer • React Developer • Problem Solver
+Software Engineer • MERN Developer • React Native
 
             </p>
 
@@ -298,7 +313,7 @@ Software Engineer • React Developer • Problem Solver
 
           <p>
 
-            Made with React + Tailwind
+          Built with React • Tailwind CSS • Framer Motion
 
           </p>
 

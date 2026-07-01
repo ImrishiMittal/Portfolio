@@ -13,6 +13,8 @@ export const skills = [
         "JavaScript",
   
         "React",
+
+        "React Native",
   
         "Tailwind",
   

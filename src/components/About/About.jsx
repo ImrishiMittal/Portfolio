@@ -60,7 +60,7 @@ const About = () => {
 
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-zinc-400">
 
-            Passionate Full Stack MERN Developer with hands-on experience building responsive and scalable web applications.
+          Full Stack MERN developer building production-grade web applications while expanding into React Native and AI/ML.
 
           </p>
 
